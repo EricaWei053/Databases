@@ -1,0 +1,198 @@
+No of people =  19370
+No of batting =  205632
+No of appearances =  104256
+No of eligible people =  10401
+Did eligible  100  current =  ['chitiha01', 0.23812709030100335, 356, 1495]
+Did eligible  200  current =  ['glennjo03', 0.25806451612903225, 8, 31]
+Did eligible  300  current =  ['landrho01', 0.2332814930015552, 450, 1929]
+Did eligible  400  current =  ['ortegph01', 0.11462450592885376, 29, 253]
+Did eligible  500  current =  ['steverc01', 0.20987654320987653, 34, 162]
+Did eligible  600  current =  ['burkele02', 0.23920265780730898, 72, 301]
+Did eligible  700  current =  ['schilch01', 0.23869984763839514, 470, 1969]
+Did eligible  800  current =  ['kernbi01', 0.25, 4, 16]
+Did eligible  900  current =  ['beaucji01', 0.2314674735249622, 153, 661]
+Did eligible  1000  current =  ['scottdi02', 0, 0, 0]
+Did eligible  1100  current =  ['meyerbo01', 0.05714285714285714, 2, 35]
+Did eligible  1200  current =  ['hedlumi01', 0.12318840579710146, 17, 138]
+Did eligible  1300  current =  ['cosmaji01', 0.09090909090909091, 1, 11]
+Did eligible  1400  current =  ['comerwa01', 0.22852983988355166, 157, 687]
+Did eligible  1500  current =  ['billidi01', 0.22745735174654752, 280, 1231]
+Did eligible  1600  current =  ['waltoda01', 0.2233632862644416, 174, 779]
+Did eligible  1700  current =  ['lambra01', 0.057971014492753624, 4, 69]
+Did eligible  1800  current =  ['burroje01', 0.26065751445086704, 1443, 5536]
+Did eligible  1900  current =  ['roquejo01', 0.1366906474820144, 19, 139]
+Did eligible  2000  current =  ['newmara01', 0.14285714285714285, 1, 7]
+Did eligible  2100  current =  ['lawsost01', 1.0, 1, 1]
+Did eligible  2200  current =  ['driesda01', 0.2672020441686439, 1464, 5479]
+Did eligible  2300  current =  ['beardmi01', 0.1, 1, 10]
+Did eligible  2400  current =  ['ramiror01', 0.18861209964412812, 53, 281]
+Did eligible  2500  current =  ['langch01', 0.16666666666666666, 1, 6]
+Did eligible  2600  current =  ['garciki01', 0.23877551020408164, 351, 1470]
+Did eligible  2700  current =  ['clancji01', 0.14754098360655737, 9, 61]
+Did eligible  2800  current =  ['sextoji01', 0.21774193548387097, 81, 372]
+Did eligible  2900  current =  ['larosjo01', 0, 0, 0]
+Did eligible  3000  current =  ['chrisga01', 0, 0, 0]
+Did eligible  3100  current =  ['wilbote01', 0.1, 2, 20]
+Did eligible  3200  current =  ['olmstal01', 0.18181818181818182, 2, 11]
+Did eligible  3300  current =  ['hayesvo01', 0.2670984949514193, 1402, 5249]
+Did eligible  3400  current =  ['barojsa01', 0, 0, 0]
+Did eligible  3500  current =  ['ryalma01', 0.21076233183856502, 47, 223]
+Did eligible  3600  current =  ['grantto01', 0.15, 3, 20]
+Did eligible  3700  current =  ['bielemi01', 0.07801418439716312, 22, 282]
+Did eligible  3800  current =  ['sheetla01', 0.2657618213660245, 607, 2284]
+Did eligible  3900  current =  ['mcdowro01', 0.2222222222222222, 16, 72]
+Did eligible  4000  current =  ['finlech01', 0.05660377358490566, 3, 53]
+Did eligible  4100  current =  ['tejadwi01', 0.25, 10, 40]
+Did eligible  4200  current =  ['magrajo01', 0.1392857142857143, 39, 280]
+Did eligible  4300  current =  ['clayda02', 0.0, 0, 2]
+Did eligible  4400  current =  ['torveke01', 0.22580645161290322, 14, 62]
+Did eligible  4500  current =  ['olinst01', 0, 0, 0]
+Did eligible  4600  current =  ['deweyma01', 0.09090909090909091, 1, 11]
+Did eligible  4700  current =  ['seguida01', 0.2913142149783371, 1412, 4847]
+Did eligible  4800  current =  ['haresh01', 0.1743119266055046, 19, 109]
+Did eligible  4900  current =  ['thomeji01', 0.27641890287342674, 2328, 8422]
+Did eligible  5000  current =  ['martido02', 0.4090909090909091, 9, 22]
+Did eligible  5100  current =  ['boltoro01', 0, 0, 0]
+Did eligible  5200  current =  ['mcneeje01', 0.2972972972972973, 11, 37]
+Did eligible  5300  current =  ['castiju02', 0.2, 1, 5]
+Did eligible  5400  current =  ['younger02', 0.22487437185929648, 179, 796]
+Did eligible  5500  current =  ['hollato01', 0.2729551864619242, 871, 3191]
+Did eligible  5600  current =  ['sefcike01', 0.27496757457846954, 212, 771]
+Did eligible  5700  current =  ['dyeje01', 0.2742407892708494, 1779, 6487]
+Did eligible  5800  current =  ['pottsmi01', 0, 0, 0]
+Did eligible  5900  current =  ['foxch02', 0.0, 0, 7]
+Did eligible  6000  current =  ['tatisfe01', 0.26450344149459193, 807, 3051]
+Did eligible  6100  current =  ['hatchch01', 0.06666666666666667, 1, 15]
+Did eligible  6200  current =  ['sinclst01', 0, 0, 0]
+Did eligible  6300  current =  ['glovega01', 0.07142857142857142, 2, 28]
+Did eligible  6400  current =  ['rupery01', 0.1111111111111111, 1, 9]
+Did eligible  6500  current =  ['forstsc01', 0, 0, 0]
+Did eligible  6600  current =  ['santajo01', 0.16129032258064516, 40, 248]
+Did eligible  6700  current =  ['estrajo01', 0.27705627705627706, 576, 2079]
+Did eligible  6800  current =  ['roberbr01', 0.2760802748146809, 1527, 5531]
+Did eligible  6900  current =  ['fieldna01', 0, 0, 0]
+Did eligible  7000  current =  ['rushfji01', 0.14285714285714285, 11, 77]
+Did eligible  7100  current =  ['gearyge01', 0.11764705882352941, 2, 17]
+Did eligible  7200  current =  ['stensde01', 0.24691358024691357, 20, 81]
+Did eligible  7300  current =  ['gilje01', 0.1744186046511628, 15, 86]
+Did eligible  7400  current =  ['serraji01', 0, 0, 0]
+Did eligible  7500  current =  ['fontemi01', 0.2646850672328379, 374, 1413]
+Did eligible  7600  current =  ['santaer01', 0.11827956989247312, 11, 93]
+Did eligible  7700  current =  ['greense01', 0.0, 0, 2]
+Did eligible  7800  current =  ['rabelmi01', 0.23381294964028776, 65, 278]
+Did eligible  7900  current =  ['cavazan01', 0, 0, 0]
+Did eligible  8000  current =  ['munizca01', 0, 0, 0]
+Did eligible  8100  current =  ['bowkejo01', 0.23170731707317074, 133, 574]
+Did eligible  8200  current =  ['masteju01', 0.21212121212121213, 7, 33]
+Did eligible  8300  current =  ['wadeco01', 0.0, 0, 2]
+Did eligible  8400  current =  ['joneshu01', 0, 0, 0]
+Did eligible  8500  current =  ['ueharko01', 0.0, 0, 2]
+Did eligible  8600  current =  ['huffmch01', 0.16666666666666666, 3, 18]
+Did eligible  8700  current =  ['tomlijo01', 0.5, 6, 12]
+Did eligible  8800  current =  ['fiersmi01', 0.08235294117647059, 7, 85]
+Did eligible  8900  current =  ['robintr01', 0.2152777777777778, 62, 288]
+Did eligible  9000  current =  ['diazju02', 0.26666666666666666, 4, 15]
+Did eligible  9100  current =  ['parkebl01', 0, 0, 0]
+Did eligible  9200  current =  ['chrisni01', 0.0, 0, 1]
+Did eligible  9300  current =  ['martiet01', 0.0, 0, 9]
+Did eligible  9400  current =  ['ahmedni01', 0.22064516129032258, 171, 775]
+Did eligible  9500  current =  ['housetj01', 0.0, 0, 2]
+Did eligible  9600  current =  ['strichu01', 0.0, 0, 1]
+Did eligible  9700  current =  ['ellinbr02', 0.0, 0, 1]
+Did eligible  9800  current =  ['ogandne01', 0, 0, 0]
+Did eligible  9900  current =  ['belljo02', 0.2734375, 35, 128]
+Did eligible  10000  current =  ['kellyty01', 0.2413793103448276, 14, 58]
+Did eligible  10100  current =  ['somsela01', 0, 0, 0]
+Did eligible  10200  current =  ['engelad01', 0, 0, 0]
+Did eligible  10300  current =  ['newcose01', 0, 0, 0]
+Did eligible  10400  current =  ['zagunma01', 0, 0, 0]
+
+Ten Greatest Hitters 
+CSV Result =  [
+  [
+    "willite01",
+    0.3444069556189982,
+    2654,
+    7706,
+    "Williams",
+    "Ted"
+  ],
+  [
+    "gwynnto01",
+    0.3381782945736434,
+    3141,
+    9288,
+    "Gwynn",
+    "Tony"
+  ],
+  [
+    "musiast01",
+    0.3308421436383522,
+    3630,
+    10972,
+    "Musial",
+    "Stan"
+  ],
+  [
+    "turnetr01",
+    0.3285302593659942,
+    114,
+    347,
+    "Turner",
+    "Trea"
+  ],
+  [
+    "boggswa01",
+    0.32788671023965144,
+    3010,
+    9180,
+    "Boggs",
+    "Wade"
+  ],
+  [
+    "carewro01",
+    0.32775093934514227,
+    3053,
+    9315,
+    "Carew",
+    "Rod"
+  ],
+  [
+    "cabremi01",
+    0.3207691328154845,
+    2519,
+    7853,
+    "Cabrera",
+    "Miguel"
+  ],
+  [
+    "puckeki01",
+    0.3180563224737714,
+    2304,
+    7244,
+    "Puckett",
+    "Kirby"
+  ],
+  [
+    "guerrvl01",
+    0.31759656652360513,
+    2590,
+    8155,
+    "Guerrero",
+    "Vladimir"
+  ],
+  [
+    "clemero01",
+    0.31732599957689867,
+    3000,
+    9454,
+    "Clemente",
+    "Roberto"
+  ]
+]
+
+
+For SQL result, I can't run it in a reasonable time but I did what professor expected us to do. 
+
+
+

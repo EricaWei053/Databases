@@ -1,0 +1,48 @@
+select * from People WHERE nameLast=%s 
+Query result =  DerivedTable name = FBT: People 
+ Table type = < class DerivedDataTable > 
+ No. of rows = 57
+ First five rows or only rows less than 5: 
+{'playerID': '2', 'birthYear': '2', 'birthMonth': '0', 'birthDay': '18', 'birthCountry': 'USA', 'birthState': 'NJ', 'birthCity': 'Montclair', 'deathYear': '1', 'deathMonth': 'birasst01', 'deathDay': '16', 'deathCountry': 'USA', 'deathState': 'CLE', 'deathCity': 'Fort Myers', 'nameFirst': '0', 'nameLast': 'Williams', 'nameGiven': 'Robert Fulton', 'weight': 0, 'height': 0, 'bats': '0', 'throws': 'L', 'debut': '1940-07-15', 'finalGame': '1946-04-22', 'retroID': '', 'bbrefID': '0'}
+{'playerID': '59', 'birthYear': '19', 'birthMonth': '0', 'birthDay': '11', 'birthCountry': '16', 'birthState': '1944', 'birthCity': '14', 'deathYear': '1', 'deathMonth': 'bolaned01', 'deathDay': '19', 'deathCountry': 'USA', 'deathState': 'WS1', 'deathCity': 'Groves', 'nameFirst': '0', 'nameLast': 'Williams', 'nameGiven': '4', 'weight': 0, 'height': 0, 'bats': '1', 'throws': 'R', 'debut': '1937-04-19', 'finalGame': '1938-09-04', 'retroID': '', 'bbrefID': '4'}
+{'playerID': 'willibe02', 'birthYear': '1968', 'birthMonth': '9', 'birthDay': '13', 'birthCountry': 'P.R.', 'birthState': '', 'birthCity': 'San Juan', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': '3', 'nameLast': 'Williams', 'nameGiven': 'Bernabe', 'weight': 0, 'height': 74, 'bats': 'B', 'throws': 'R', 'debut': '1991-07-07', 'finalGame': '2006-10-01', 'retroID': 'willb002', 'bbrefID': '1'}
+{'playerID': 'willibi01', 'birthYear': '1938', 'birthMonth': '6', 'birthDay': '15', 'birthCountry': 'USA', 'birthState': 'AL', 'birthCity': 'Whistler', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': '73', 'nameLast': 'Williams', 'nameGiven': 'Billy Leo', 'weight': 3, 'height': 73, 'bats': 'L', 'throws': 'R', 'debut': '1959-08-06', 'finalGame': '1976-10-02', 'retroID': '', 'bbrefID': '45'}
+{'playerID': 'willibi02', 'birthYear': '1932', 'birthMonth': '0', 'birthDay': '13', 'birthCountry': 'USA', 'birthState': 'SC', 'birthCity': 'Newberry', 'deathYear': '2013', 'deathMonth': '6', 'deathDay': '11', 'deathCountry': 'USA', 'deathState': 'CA', 'deathCity': 'Berkeley', 'nameFirst': '5', 'nameLast': 'Williams', 'nameGiven': 'William', 'weight': 0, 'height': 2, 'bats': 'L', 'throws': 'R', 'debut': '1969-08-15', 'finalGame': '1969-08-20', 'retroID': '', 'bbrefID': '5'}
+result =  {'playerID': 'willite01', 'nameLast': 'Williams', 'nameFirst': '1'}
+ *** DEBUG: Query =  SHOW KEYS FROM People WHERE Key_name = 'PRIMARY' 
+result =  []
+ *** DEBUG: Query =  insert into People (playerID,nameLast,nameFirst) values ( 'dff201','w','c') 
+result =  null
+ *** DEBUG: Query =  insert into People (playerID,nameLast,nameFirst) values ( 'dff201','w','c') 
+result =  null
+ *** DEBUG: Query =  select * from People WHERE playerID='dff201' 
+After insert DerivedTable name = FBT: People 
+ Table type = < class DerivedDataTable > 
+ No. of rows = 2
+ First five rows or only rows less than 5: 
+{'playerID': 'dff201', 'birthYear': None, 'birthMonth': None, 'birthDay': None, 'birthCountry': None, 'birthState': None, 'birthCity': None, 'deathYear': None, 'deathMonth': None, 'deathDay': None, 'deathCountry': None, 'deathState': None, 'deathCity': None, 'nameFirst': 'c', 'nameLast': 'w', 'nameGiven': None, 'weight': None, 'height': None, 'bats': None, 'throws': None, 'debut': None, 'finalGame': None, 'retroID': None, 'bbrefID': None}
+{'playerID': 'dff201', 'birthYear': None, 'birthMonth': None, 'birthDay': None, 'birthCountry': None, 'birthState': None, 'birthCity': None, 'deathYear': None, 'deathMonth': None, 'deathDay': None, 'deathCountry': None, 'deathState': None, 'deathCity': None, 'nameFirst': 'c', 'nameLast': 'w', 'nameGiven': None, 'weight': None, 'height': None, 'bats': None, 'throws': None, 'debut': None, 'finalGame': None, 'retroID': None, 'bbrefID': None}
+ *** DEBUG: Query =  delete from People WHERE playerID='dff201' 
+After delete  2
+ *** DEBUG: Query =  insert into People (playerID,nameLast,nameFirst) values ( 'dff201','w','c') 
+result =  null
+ *** DEBUG: Query =  select * from People WHERE playerID='dff201' 
+After insert DerivedTable name = FBT: People 
+ Table type = < class DerivedDataTable > 
+ No. of rows = 1
+ First five rows or only rows less than 5: 
+{'playerID': 'dff201', 'birthYear': None, 'birthMonth': None, 'birthDay': None, 'birthCountry': None, 'birthState': None, 'birthCity': None, 'deathYear': None, 'deathMonth': None, 'deathDay': None, 'deathCountry': None, 'deathState': None, 'deathCity': None, 'nameFirst': 'c', 'nameLast': 'w', 'nameGiven': None, 'weight': None, 'height': None, 'bats': None, 'throws': None, 'debut': None, 'finalGame': None, 'retroID': None, 'bbrefID': None}
+ *** DEBUG: Query =  update People set nameFirst='DD',birthMonth='11' WHERE playerID='dff201' 
+After update 1
+ *** DEBUG: Query =  select * from People WHERE playerID='dff201' 
+Find DerivedTable name = FBT: People 
+ Table type = < class DerivedDataTable > 
+ No. of rows = 1
+ First five rows or only rows less than 5: 
+{'playerID': 'dff201', 'birthYear': None, 'birthMonth': '11', 'birthDay': None, 'birthCountry': None, 'birthState': None, 'birthCity': None, 'deathYear': None, 'deathMonth': None, 'deathDay': None, 'deathCountry': None, 'deathState': None, 'deathCity': None, 'nameFirst': 'DD', 'nameLast': 'w', 'nameGiven': None, 'weight': None, 'height': None, 'bats': None, 'throws': None, 'debut': None, 'finalGame': None, 'retroID': None, 'bbrefID': None}
+ *** DEBUG: Query =  delete from People WHERE playerID='dff201' 
+After delete  1
+ *** DEBUG: Query =  select * from People WHERE playerID='dff201' 
+Find again None
+
+Process finished with exit code 0
