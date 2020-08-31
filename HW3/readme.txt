@@ -1,5 +1,4 @@
-Name: Chenchen Wei
-Uni: cw3137 
+
 
 Content: 
 This directory contains all the files I implemented or used to complete HW3. 
