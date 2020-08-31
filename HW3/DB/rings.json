@@ -1,0 +1,60 @@
+{
+  "sate": {
+    "table_name": "Rings",
+    "primary_key_columns": [
+      "uni"
+    ],
+    "next_rid": 5,
+    "column_names": [
+      "uni",
+      "last_name",
+      "first_name"
+    ]
+  },
+  "rows": {
+    "1": {
+      "uni": "abercda01",
+      "last_name": "Daer",
+      "first_name": "aberchy"
+    },
+    "2": {
+      "uni": "addybo01",
+      "last_name": "Brandon",
+      "first_name": "addy"
+    },
+    "3": {
+      "uni": "bbo011",
+      "last_name": "Baggins",
+      "first_name": "Bilbo"
+    },
+    "4": {
+      "uni": "bif01",
+      "last_name": "Franklin",
+      "first_name": "Billi"
+    }
+  },
+  "indexes": {
+    "PRIMARY": {
+      "names": "PRIMARY",
+      "columns": [
+        "uni"
+      ],
+      "kind": "PRIMARY",
+      "table_name": "Rings",
+      "index_data": {
+        "abercda01": [
+          1
+        ],
+        "addybo01": [
+          2
+        ],
+        "bbo011": [
+          3
+        ],
+        "bif01": [
+          4
+        ]
+      }
+    }
+  }
+}

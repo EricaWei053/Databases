@@ -1,0 +1,123 @@
+Test import_data(which including add_rows(), and test find_by_tmp not use index. 
+T =  Table name =  People
+Column names = ['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+Primary key columns = ['playerID']
+Next row id: 19370
+No. of rows: 19370
+Row =  [{'playerID': 'willite01', 'birthYear': '1918', 'birthMonth': '8', 'birthDay': '30', 'birthCountry': 'USA', 'birthState': 'CA', 'birthCity': 'San Diego', 'deathYear': '2002', 'deathMonth': '7', 'deathDay': '5', 'deathCountry': 'USA', 'deathState': 'FL', 'deathCity': 'Inverness', 'nameFirst': 'Ted', 'nameLast': 'Williams', 'nameGiven': 'Theodore Samuel', 'weight': '205', 'height': '75', 'bats': 'L', 'throws': 'R', 'debut': '1939-04-20', 'finalGame': '1960-09-28', 'retroID': 'willt103', 'bbrefID': 'willite01'}]
+Time :  18.030643939971924
+Test add_index function, find_by_template use index.
+T =  Table name =  People
+Column names = ['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+Primary key columns = ['playerID']
+Next row id: 19370
+No. of rows: 19370
+Row =  [{'playerID': 'willite01', 'birthYear': '1918', 'birthMonth': '8', 'birthDay': '30', 'birthCountry': 'USA', 'birthState': 'CA', 'birthCity': 'San Diego', 'deathYear': '2002', 'deathMonth': '7', 'deathDay': '5', 'deathCountry': 'USA', 'deathState': 'FL', 'deathCity': 'Inverness', 'nameFirst': 'Ted', 'nameLast': 'Williams', 'nameGiven': 'Theodore Samuel', 'weight': '205', 'height': '75', 'bats': 'L', 'throws': 'R', 'debut': '1939-04-20', 'finalGame': '1960-09-28', 'retroID': 'willt103', 'bbrefID': 'willite01'}]
+Time :  3.371098041534424
+Test compute_index_value function.
+T =  Table name =  rings
+Column names = ['uni', 'last_name', 'first_name']
+Primary key columns = ['uni']
+Next row id: 4
+No. of rows: 4
+ KV =  Erica_Wei
+Index name = Bob
+Table names = rings
+Columns = ['first_name', 'last_name']
+ kind = UNIQUE
+test JOIN function. 
+T =  Table name =  People
+Column names = ['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+Primary key columns = ['playerID']
+Next row id: 19370
+No. of rows: 19370
+T =  Table name =  People
+Column names = ['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+Primary key columns = ['playerID']
+Next row id: 19370
+No. of rows: 19370
+Result =  Table name =  Join(BattingSmall,People)
+Column names = ['AB', 'H', 'nameFirst', 'nameLast', 'playerID', 'stint', 'teamID', 'yearID']
+Primary key columns = None
+Next row id: 2
+No. of rows: 1
+[{'playerID': 'willite01', 'nameLast': 'Williams', 'nameFirst': 'Ted', 'teamID': 'BR2', 'yearID': '1918', 'stint': '1', 'H': '7', 'AB': '125'}]
+All rows =  [
+  {
+    "playerID": "willite01",
+    "nameLast": "Williams",
+    "nameFirst": "Ted",
+    "teamID": "BR2",
+    "yearID": "1918",
+    "stint": "1",
+    "H": "7",
+    "AB": "125"
+  }
+]
+Test get_specific_project function.
+T =  Table name =  People
+Column names = ['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+Primary key columns = ['playerID']
+Next row id: 19370
+No. of rows: 19370
+Specific template =  ['playerID', 'nameLast']
+Test add_index function in csvDataTable. 
+T =  Table name =  People
+Column names = ['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+Primary key columns = ['playerID']
+Next row id: 19370
+No. of rows: 19370
+Answer =  {18814: OrderedDict([('playerID', 'willite01'), ('birthYear', '1918'), ('birthMonth', '8'), ('birthDay', '30'), ('birthCountry', 'USA'), ('birthState', 'CA'), ('birthCity', 'San Diego'), ('deathYear', '2002'), ('deathMonth', '7'), ('deathDay', '5'), ('deathCountry', 'USA'), ('deathState', 'FL'), ('deathCity', 'Inverness'), ('nameFirst', 'Ted'), ('nameLast', 'Williams'), ('nameGiven', 'Theodore Samuel'), ('weight', '205'), ('height', '75'), ('bats', 'L'), ('throws', 'R'), ('debut', '1939-04-20'), ('finalGame', '1960-09-28'), ('retroID', 'willt103'), ('bbrefID', 'willite01')]), 18817: OrderedDict([('playerID', 'willitr01'), ('birthYear', '1992'), ('birthMonth', '4'), ('birthDay', '25'), ('birthCountry', 'USA'), ('birthState', 'CA'), ('birthCity', 'San Diego'), ('deathYear', ''), ('deathMonth', ''), ('deathDay', ''), ('deathCountry', ''), ('deathState', ''), ('deathCity', ''), ('nameFirst', 'Trevor'), ('nameLast', 'Williams'), ('nameGiven', 'Trevor Anthony'), ('weight', '230'), ('height', '75'), ('bats', 'R'), ('throws', 'R'), ('debut', '2016-09-07'), ('finalGame', '2017-09-26'), ('retroID', 'willt002'), ('bbrefID', 'willitr01')])}
+Test compute_index_value function. Test delete_from_index  
+T =  Table name =  rings
+Column names = ['uni', 'last_name', 'first_name']
+Primary key columns = ['uni']
+Next row id: 4
+No. of rows: 4
+Index key is  Bilbo_Baggins
+Test insert() function. 
+Before insert T =  Table name =  Rings
+Column names = ['uni', 'last_name', 'first_name']
+Primary key columns = ['uni']
+Next row id: 5
+No. of rows: 4
+After inset()
+ T =  Table name =  Rings
+Column names = ['uni', 'last_name', 'first_name']
+Primary key columns = ['uni']
+Next row id: 6
+No. of rows: 5
+Find the inseted row:
+[{'last_name': 'LoL', 'first_name': 'New', 'uni': 'LN11'}]
+check
+delete: [OrderedDict([('uni', 'bbo011'), ('last_name', 'Baggins'), ('first_name', 'Bilbo')])]
+
+
+after delete, T =  Table name =  Rings
+Column names = ['uni', 'last_name', 'first_name']
+Primary key columns = ['uni']
+Next row id: 4
+No. of rows: 3
+T =  Table name =  People
+Column names = ['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+Primary key columns = ['playerID']
+Next row id: 19370
+No. of rows: 19370
+T =  Table name =  People
+Column names = ['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+Primary key columns = ['playerID']
+Next row id: 19370
+No. of rows: 19370
+
+
+ With optimization
+
+Elapsed time =  0.04826712608337402
+
+
+ Without optimization
+
+JOIN on 100  iteration
+Time so far =  4.714228868484497
+Speed =  21.212376995210974 rows per second 
+Elapsed time =  7.687806844711304
